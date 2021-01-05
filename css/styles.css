@@ -48,6 +48,9 @@
   box-sizing: border-box;
 }
 
+a>div { display: none; }
+a:hover>div { display: block; }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
